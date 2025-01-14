@@ -40,7 +40,11 @@
 
 /cart (put) -> modify the cart
 
+
 📃 For orders
+
 /orders (post) -> create order from the cart 
+
 /orders (get) -> list all orders of user 
+
 /orders/id (get) -> list single order and its products
