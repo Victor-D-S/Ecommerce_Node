@@ -2,27 +2,42 @@
 
 -=ECommerce App=-
 
+
 🗃️ Database Tables
+
 *Products
+
 *Cart
+
 *Orders
+
 *Users
+
 *Routes
 
+
 🧑 For users
+
 /login -> to login user
+
 /signup -> signup user
+
 /me -> to return current logged in user based on auth token (Role based auth)
 
-Role based routes
 
 💸 For products
+
 /products (post) -> to create a product
+
 /products/id (get, put, delete) -> fetch, update and delete a single product /products (get) -> Search api for products, this will include full text search
 
+
 🛒 For cart
+
 /cart (post) -> to add product to cart
+
 /cart (get) -> to list the cart
+
 /cart (put) -> modify the cart
 
 📃 For orders
