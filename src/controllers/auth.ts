@@ -5,9 +5,8 @@ import * as jwt from 'jsonwebtoken';
 import { JWT_SECRET } from "../secrets";
 import { BadRequestException } from "../exceptions/bad-requests";
 import { ErrorCode } from "../exceptions/root";
-import { UnprocessableEntity } from "../exceptions/validation";
 import { SignUpSchema } from "../schema/users";
-import { NotFoundException } from "../exceptions/internal-exception";
+import { NotFoundException } from "../exceptions/not-found";
 
 export const signup = async (req: Request, res: Response, next:NextFunction) => {
 

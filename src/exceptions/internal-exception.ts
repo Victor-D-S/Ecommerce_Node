@@ -1,7 +1,7 @@
 import { ErrorCode, HttpException } from "./root";
 
-export class NotFoundException extends HttpException {
-    constructor(message:string, errorCode:ErrorCode) {
-        super(message, errorCode, 404, null);
+export class InternalException extends HttpException {
+    constructor(message:string, errors:any, errorCode:ErrorCode) {
+        super(message, errorCode, 500, errors);
     }
 }
